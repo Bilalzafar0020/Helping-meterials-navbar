@@ -56,7 +56,11 @@ nav ul li a:hover{
 }
 
 #check:checked ~ ul{
-    left:0;
+    left:0;    /* top:14% (if we want it come from top)*/
+
+}
+#check :checked ~ #checkbtn{
+display: block;
 }
 
 
@@ -80,7 +84,7 @@ nav ul li{
     text-align: center;
     
 }
-}
+};
 
 
 
